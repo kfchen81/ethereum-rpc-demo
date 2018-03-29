@@ -1,10 +1,10 @@
 
 ethereum-rpc-demo demonstrate how to write your own RPC server base on the rpc framework provided by go-ethereum
 
-# dependency
+# Dependency
 install: `go get github.com/ethereum/go-ethereum`
 
-## run
+# Run
 go run main.go
 
 if server start successfully, you will get:
@@ -14,7 +14,7 @@ RPC HTTP endpoint opened url http://127.0.0.1:9010 cors  vhosts
 
 our service is registered in rpc server under the namespace `kfchen`
 
-## test
+# Test
 use curl to post data to RPC server
 
 ### kfchen_echo
