@@ -5,7 +5,7 @@ ethereum-rpc-demo demonstrate how to write your own RPC server base on the rpc f
 install: `go get github.com/ethereum/go-ethereum`
 
 # Run
-go run main.go
+run: `go run main.go`
 
 if server start successfully, you will get:
 ```
@@ -50,3 +50,6 @@ Result:
 ```
 
 We can see `kfchen namespace` and `rpc namespace`
+
+# See Also
+[Ethereum JSON-RPC Wiki](https://github.com/ethereum/wiki/wiki/JSON-RPC)
